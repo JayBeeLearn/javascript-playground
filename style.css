@@ -1,0 +1,107 @@
+*{
+    margin: 15px;
+}
+
+.age{
+    display: block;
+}
+
+
+input{
+    display: block;
+}
+
+.answer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-weight: bolder;
+}
+
+
+.contain{
+    border: 1px solid black;
+
+}
+
+.imagecontain{
+    display: flex;
+}
+
+.catgen{
+    text-align: center;
+    text-transform: uppercase;
+    color: blueviolet;
+
+}
+
+.catapp{
+    border: 1px solid green;
+}
+
+.rps img:hover{ 
+    box-shadow: 0px 5px 20px rgb(59, 25, 213);
+    
+}
+
+.text-center{
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.borde{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn-info{
+    background-color: rgb(4, 43, 172);
+}
+
+.btn-primary{
+    background-color: rgb(13, 90, 255);
+}
+
+.btn-success{
+    background-color: green;
+}
+
+.btn-warning{
+    background-color: yellow;
+}
+
+.btn-danger{
+    background-color: red;
+}
+
+
+.flex-blackjack-row-1{
+    display: flex;
+    background: url(./images/background.jpg) center no-repeat;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-blackjack-row-2{
+    background: url(./images/background.jpg) center no-repeat;
+
+}
+
+
+.flex-blackjack-row-1 div{
+    height: 350px;
+    flex: 1;    
+    border: 2px solid black;
+    /* margin: 20px 5px; */
+    
+}
+
+

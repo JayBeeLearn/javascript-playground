@@ -1,0 +1,27 @@
+*{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+body{
+   background-color: rgb(216, 245, 235);
+   margin: 1rem;
+}
+
+.rpsGame{
+   background-color: aliceblue;
+   width: 345px;
+   height: 150px;
+   padding: 1.5rem;
+   content: space-around;
+   margin: auto;
+   border-radius: 15px;
+   text-align: center;
+   font-size: larger;
+   font-weight: bolder;
+}
+
+.images {
+   display: flex;
+   justify-content: space-around;
+}

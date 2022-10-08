@@ -1,0 +1,109 @@
+* {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   background-color: rgb(191, 138, 216);
+}
+
+.name {
+   text-align: center;
+}
+
+.wrapper {
+   height: 525px;
+   width: 345px;
+   background-color: rgb(1, 1, 73);
+   border-radius: 1rem;
+   padding: 1.2rem;
+   margin: auto;
+   color: white;
+}
+
+.title {
+   font-weight: bold;
+   margin-bottom: 0.6rem;
+}
+
+.dollar {
+   /* margin: 0.5rem; */
+   padding-right: 2px;
+
+}
+
+.container {
+   margin-top: 1.4rem;
+}
+
+#topContainer {
+   margin-top: 4rem;
+}
+
+#billTotalInput,
+#tipInput {
+   font-size: 1.2rem;
+   background: none;
+   border: none;
+   outline: none;
+   padding: none;
+   color: white;
+}
+
+.inputContainer {
+   background: #353959;
+   border-radius: 1.4rem;
+   padding: 0 0.8rem;
+   display: flex;
+   align-items: center;
+}
+
+.buttonContainer {
+   background: #8990ec;
+   display: grid;
+   place-items: center;
+   width: 1.6rem;
+   height: 1.6rem;
+   border-radius: 50%;
+}
+
+.splitButton {
+   background: none;
+   border: none;
+}
+
+.controls {
+   display: flex;
+   align-items: center;
+}
+
+.splitButton {
+   font-size: 0.8rem;
+   font-weight: bold;
+   display: grid;
+   place-items: center;
+}
+
+.buttonText {
+   color: white !important;
+   font-size: 1rem;
+}
+
+.splitAmount {
+   font-size: 1.6rem;
+   margin: 0.8rem;
+}
+
+#bottom {
+   display: flex;
+   justify-content: space-between;
+}
+
+.totalContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+
+.total {
+   font-size: 2rem;
+}
